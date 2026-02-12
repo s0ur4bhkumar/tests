@@ -9,5 +9,6 @@ test('test for case preservation', () => {
 })
 
 test('punctuation,spaces and other non-alphabetical should remain unchanged', () => {
-  expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!')
+  expect(caesarCipher('Hell0, World!', 3)).toBe('Khoo0, Zruog!')
 })
+
